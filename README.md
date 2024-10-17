@@ -40,19 +40,28 @@ Esses componentes ajudam a garantir alta disponibilidade, organização eficient
 
 ### Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
 Computação no Azure
--Azure Virtual Machines (VMs): Máquinas virtuais configuráveis para rodar sistemas operacionais e aplicativos.
--Azure App Service: Hospeda aplicativos web e APIs sem precisar gerenciar a infraestrutura.
--Azure Functions: Computação serverless para executar código sob demanda com base em eventos.
--Azure Kubernetes Service (AKS): Gerencia e orquestra contêineres em escala.
--Azure Batch: Automatiza o processamento de grandes volumes de trabalho em paralelo.
+- Azure Virtual Machines (VMs): Máquinas virtuais configuráveis para rodar sistemas operacionais e aplicativos.
+  
+- Azure App Service: Hospeda aplicativos web e APIs sem precisar gerenciar a infraestrutura.
+  
+- Azure Functions: Computação serverless para executar código sob demanda com base em eventos.
+  
+- Azure Kubernetes Service (AKS): Gerencia e orquestra contêineres em escala.
+  
+- Azure Batch: Automatiza o processamento de grandes volumes de trabalho em paralelo.
 
 Serviços de Rede no Azure
--Azure Virtual Network (VNet): Criação de redes privadas na nuvem para conectar recursos.
--Azure Load Balancer: Distribui o tráfego para manter alta disponibilidade entre instâncias.
--Azure Application Gateway: Gerencia o tráfego de aplicativos com recursos como balanceamento de carga e firewall.
--Azure VPN Gateway: Conecta redes locais ao Azure por meio de uma VPN segura.
--Azure ExpressRoute: Proporciona conexões privadas e de baixa latência entre data centers locais e o Azure.
--Azure DNS: Gerenciamento de nomes de domínio e registros DNS.
+- Azure Virtual Network (VNet): Criação de redes privadas na nuvem para conectar recursos.
+
+- Azure Load Balancer: Distribui o tráfego para manter alta disponibilidade entre instâncias.
+
+- Azure Application Gateway: Gerencia o tráfego de aplicativos com recursos como balanceamento de carga e firewall.
+
+- Azure VPN Gateway: Conecta redes locais ao Azure por meio de uma VPN segura.
+
+- Azure ExpressRoute: Proporciona conexões privadas e de baixa latência entre data centers locais e o Azure.
+
+- Azure DNS: Gerenciamento de nomes de domínio e registros DNS.
 
 
 Esses serviços de computação e rede no Azure garantem escalabilidade, segurança e alta disponibilidade, sendo essenciais para construir e operar aplicativos modernos e robustos na nuvem.
