@@ -147,35 +147,35 @@ Certificações sobre Otimização de Custos
 -FinOps Certified Practitioner: Embora não específica do Azure, esta certificação ajuda a desenvolver habilidades de gestão financeira para múltiplas   nuvens.
 
 ### Gerenciando Politicas em Acessos Azure
-- Portal de Confiança de Serviços (Microsoft Trust Center)
+-Portal de Confiança de Serviços (Microsoft Trust Center)
   O Portal de Confiança de Serviços é um repositório centralizado onde a Microsoft divulga informações sobre:
 
  - Segurança e privacidade dos serviços Azure e Microsoft 365.
  - Conformidade com regulamentações globais.
  - Transparência: Inclui relatórios de auditoria, termos de serviço e práticas de proteção de dados.
    
-- Certificações, Padrões e Regulamentos
+-Certificações, Padrões e Regulamentos
 
  - ISO/IEC 27001: Gestão de segurança da informação.
  - GDPR: Regulamento Geral de Proteção de Dados da União Europeia.
  - PCI DSS: Padrão para segurança de dados em pagamentos.
  - SOC 1, SOC 2, SOC 3: Relatórios de controles internos.
  
-- Azure Purview
+-Azure Purview
 O Purview é uma solução de governança de dados e catalogação.
 
  - Descoberta e classificação: Identifica dados sensíveis automaticamente.
  - Mapeamento de linhagem de dados: Acompanhamento do fluxo de dados entre sistemas.
  - Catálogo de dados: Oferece uma visão unificada dos dados corporativos para facilitar a conformidade e otimização.
 
-- Políticas no Azure
+-Políticas no Azure
 As Azure Policies permitem criar regras para garantir que os recursos estejam configurados de acordo com diretrizes específicas.
 
  - Governança automatizada: Aplicação de políticas para evitar desvios de conformidade.
  - Exemplos: Restringir tipos de VMs, exigir criptografia ou definir locais específicos para a criação de recursos.
  - Monitoramento: Assegura que recursos existentes também sigam essas políticas.
 
-- Kubernetes no Azure (AKS)
+-Kubernetes no Azure (AKS)
 O Azure Kubernetes Service (AKS) é uma plataforma gerenciada para a orquestração de contêineres.
 
  - Automação: Simplifica a implantação e o gerenciamento de clusters Kubernetes.
