@@ -92,3 +92,33 @@ Comandos úteis:
 azcopy copy: Copiar arquivos entre fontes e destinos.
 azcopy sync: Sincronizar diretórios entre a nuvem e local.
 azcopy login: Autenticação segura com o Azure.
+
+### Entendendo sobre Segurança e Identidade na Azure
+
+- Azure AD (Entra ID)
+O Entra ID (antigo Azure Active Directory) é o serviço de identidade e acesso do Azure. Ele autentica usuários e permite o controle de acesso a recursos na nuvem e em ambientes híbridos.
+
+Suporte para SSO (Single Sign-On), autenticação multifator (MFA) e políticas de acesso condicional.
+Integração com aplicativos SaaS e ambientes on-premises.
+
+- Criação, Deleção e Convite de Usuários em Grupos
+Criação/Deleção: Admins podem criar e remover usuários diretamente no Entra ID via portal, CLI ou PowerShell.
+Convite: Usuários externos podem ser adicionados através de B2B (Business-to-Business), enviando convites por e-mail para colaborar com recursos específicos.
+Grupos: Usados para organizar usuários e simplificar o gerenciamento de permissões.
+
+- Sincronização de Usuários e Permissões (RBAC)
+Azure AD Connect: Sincroniza usuários do Active Directory on-premises com o Entra ID para ambientes híbridos.
+RBAC (Role-Based Access Control): Define permissões baseadas em funções (roles) atribuídas a usuários ou grupos, garantindo acesso apenas aos recursos necessários.
+
+- Defender for Cloud
+O Defender for Cloud é uma solução de segurança integrada que oferece:
+
+Monitoramento contínuo de recursos na nuvem e recomendações de segurança.
+Proteção contra ameaças para VMs, bancos de dados e contêineres.
+Políticas de conformidade que ajudam a atender a padrões como ISO, GDPR e PCI-DSS.
+
+- DevOps Security
+Azure DevOps oferece integrações de segurança em pipelines CI/CD (integração e entrega contínuas).
+Security Gates: Validações automáticas em código antes de produção.
+DevSecOps: Práticas que integram segurança desde o início do desenvolvimento.
+Ferramentas: Integração com GitHub Advanced Security e análise estática/dinâmica para detectar vulnerabilidades em código.
