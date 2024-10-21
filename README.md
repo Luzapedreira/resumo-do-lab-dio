@@ -128,17 +128,20 @@ Ferramentas: Integração com GitHub Advanced Security e análise estática/din�
 A otimização de custos no Azure busca reduzir despesas enquanto mantém a performance e a disponibilidade dos recursos. Algumas práticas recomendadas incluem:
 
 -Reservas e Instâncias Spot: Descontos para workloads previsíveis e sob demanda (com risco de interrupção).
+
 -Dimensionamento automático: Ajusta o uso de recursos conforme a demanda.
+
 -Ajuste de recursos: Eliminar ou reduzir recursos subutilizados (direcionar para VMs menores, por exemplo).
+
 -Monitoramento com Azure Cost Management: Analisar e definir alertas para gastos anormais.
+
 -Políticas: Aplicação de políticas de Governança para evitar gastos fora do planejado.
 
 Certificações sobre Otimização de Custos
--Microsoft Certified: Azure Fundamentals (AZ-900)
-  Introduz conceitos de governança, faturamento e otimização de custos na nuvem.
--Microsoft Certified: Azure Administrator Associate (AZ-104)
-  Foca em práticas de administração com módulos sobre monitoramento e controle de custos.
--Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
-  Explora otimização em arquitetura de soluções complexas e escaláveis.
--FinOps Certified Practitioner
-  Embora não específica do Azure, esta certificação ajuda a desenvolver habilidades de gestão financeira para múltiplas   nuvens.
+-Microsoft Certified: Azure Fundamentals (AZ-900): Introduz conceitos de governança, faturamento e otimização de custos na nuvem.
+
+-Microsoft Certified: Azure Administrator Associate (AZ-104): Foca em práticas de administração com módulos sobre monitoramento e controle de custos.
+
+-Microsoft Certified: Azure Solutions Architect Expert (AZ-305): Explora otimização em arquitetura de soluções complexas e escaláveis.
+
+-FinOps Certified Practitioner: Embora não específica do Azure, esta certificação ajuda a desenvolver habilidades de gestão financeira para múltiplas   nuvens.
