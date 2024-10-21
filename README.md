@@ -181,3 +181,27 @@ O Azure Kubernetes Service (AKS) é uma plataforma gerenciada para a orquestraç
  - Automação: Simplifica a implantação e o gerenciamento de clusters Kubernetes.
  - Escalabilidade: Suporta autoescalamento de cargas de trabalho.
  - Integração com DevOps e segurança: Oferece suporte a CI/CD, além de controle de acesso com RBAC e políticas de rede.
+
+### Ferramentas de Implantação na Azure
+
+-Criação de Recursos e Criação em Lote
+ - Portal Azure: Interface gráfica para criar recursos de forma manual e rápida.
+ - Automação em lote: Via scripts ou templates para implantar múltiplos recursos simultaneamente.
+ - Escalabilidade: Ideal para grandes ambientes, reduzindo tempo e erros humanos.
+
+-Azure Cloud Shell
+ - Terminal integrado disponível diretamente no portal Azure.
+ - Acessa ferramentas como CLI e PowerShell sem necessidade de instalação local.
+ - Armazenamento persistente para scripts e arquivos no Azure Files.
+
+-Azure CLI
+ - Ferramenta de linha de comando multiplataforma.
+ - Permite criar, atualizar e deletar recursos por meio de comandos simples.
+
+-Bicep
+ - Linguagem declarativa para infraestrutura como código (IaC), simplificando templates ARM (Azure Resource Manager). Mais fácil de ler e manter do que JSON.
+
+-Azure Arc
+ - Ferramenta que permite gerenciar recursos localizados fora do Azure (ambientes on-premises ou outras nuvens) como se estivessem no Azure.
+ - Suporta servidores, contêineres e clusters Kubernetes externos.
+ - Ideal para ambientes híbridos e multicloud, oferecendo governança e conformidade unificada.
