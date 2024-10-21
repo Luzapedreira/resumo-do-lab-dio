@@ -205,3 +205,32 @@ O Azure Kubernetes Service (AKS) é uma plataforma gerenciada para a orquestraç
  - Ferramenta que permite gerenciar recursos localizados fora do Azure (ambientes on-premises ou outras nuvens) como se estivessem no Azure.
  - Suporta servidores, contêineres e clusters Kubernetes externos.
  - Ideal para ambientes híbridos e multicloud, oferecendo governança e conformidade unificada.
+
+
+### Monitoramento Inteligente com o Azure,
+
+-Azure Advisor
+ - Serviço de recomendações proativas que analisa recursos e sugere melhorias em:
+    Custo: Redução de gastos.
+    Desempenho: Otimização de VMs e aplicativos.
+    Segurança: Sugestões para aumentar a proteção.
+    Alta disponibilidade: Garantir continuidade dos serviços.
+    Ajuda a manter os recursos em conformidade com boas práticas.
+
+-Azure Service Health
+ - Monitora eventos de manutenção, interrupções e problemas que podem afetar serviços no Azure.
+ - Fornece alertas personalizados sobre impactos diretos nos recursos do cliente.
+ - Storage: Armazena o histórico de incidentes para auditoria e planejamento futuro.
+
+-Azure Monitor
+ - Plataforma unificada que coleta telemetria (logs, métricas e rastreamento de aplicações).
+    Integra-se com outros serviços, como Log Analytics e Application Insights.
+    Permite criar dashboards personalizados e gerar insights em tempo real sobre a saúde dos sistemas.
+    Storage: Armazena dados no Log Analytics e oferece retenção customizável.
+
+-Tipos de Alertas
+ - Métricas: Gatilhos baseados em medições, como CPU acima de um limite.
+ - Logs: Disparados quando uma condição específica é encontrada em logs (ex: falhas repetidas).
+ - Atividades: Detecta alterações em recursos (como a exclusão de uma VM).
+ - Health Alerts: Notificações do Service Health sobre manutenção ou interrupções.
+   
