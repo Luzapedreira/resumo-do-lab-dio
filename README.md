@@ -65,3 +65,30 @@ Serviços de Rede no Azure
 
 
 Esses serviços de computação e rede no Azure garantem escalabilidade, segurança e alta disponibilidade, sendo essenciais para construir e operar aplicativos modernos e robustos na nuvem.
+
+### Dominando o Armazenamento na Azure
+Contas de Armazenamento no Azure
+As Contas de Armazenamento no Azure são containers que gerenciam vários serviços de armazenamento: Blobs, Files, Queues e Tables. Principais peculiaridades:
+
+Tipos: Standard (discos HDD, mais barato) e Premium (discos SSD, alta performance).
+Redundância: Local (LRS), Zone (ZRS), Geo (GRS) e Read-Access Geo (RA-GRS).
+Camadas de acesso: Hot (frequente), Cool (eventual) e Archive (raramente acessado).
+Configurações importantes: Controle de acesso com RBAC (Role-Based Access Control), chaves de acesso, e SAS (Shared Access Signature) para links temporários.
+
+Migrações para o Azure
+O processo de migração envolve mover aplicativos, dados e infraestrutura local para a nuvem. Algumas estratégias comuns incluem:
+
+Lift-and-Shift: Migração direta, sem modificações na arquitetura.
+Replatform: Ajustes mínimos para aproveitar serviços PaaS do Azure.
+Refactor/Rearchitect: Modificação completa do app para uma arquitetura nativa da nuvem.
+Ferramentas: Azure Migrate é uma plataforma que auxilia em avaliações, planejamento e execução da migração.
+
+AzCopy
+O AzCopy é uma ferramenta de linha de comando poderosa para copiar dados entre contas de armazenamento no Azure ou entre o local e a nuvem.
+
+Velocidade: Transferências rápidas, aproveitando paralelismo.
+Casos de uso: Upload/download de Blobs, arquivos, e sincronização de diretórios.
+Comandos úteis:
+azcopy copy: Copiar arquivos entre fontes e destinos.
+azcopy sync: Sincronizar diretórios entre a nuvem e local.
+azcopy login: Autenticação segura com o Azure.
